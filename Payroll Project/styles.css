@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color:blanchedalmond;
+}
+nav {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 10px;
+}
+nav ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 30px;
+    background-color: inherit;
+}
+nav ul li {
+    list-style: none;
+    background-color: inherit;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    letter-spacing: 3px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+form {
+    width: 400px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: #f2d1a0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type = text], input[type = date], input[type = email], select {
+    background-color: inherit;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+    height: 30px;
+}
+input[type = submit] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+input[type = submit]:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2d1a0;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  h2 {
+    text-align: center;
+  }
